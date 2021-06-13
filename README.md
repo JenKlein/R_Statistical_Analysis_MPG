@@ -23,7 +23,7 @@ Vehicle length and ground clearance (as well as the intercept) all have p values
 
 The equation for the slope of a multiple linear regression is calculated using the formula y = m1x1 + m2x2 + … + mnxn + b, for all independent x variables and their m coefficients.The slope of the linear model is not considered to be 0 since the predictors (vehicle length and ground clearance) likely impact MPG, as demonstrated by their p-values being less than zero. 
 
--103.963979 + (14.69710 * 6.267128) + (6407.946* 0.001245) + (48.78998*0.068766) + (14.640983* 3.545534) - (1*3.411499) = 47.97622
+-103.963979 + (14.69710 * 6.267128) + (6407.946 * 0.001245) + (48.78998 * 0.068766) + (14.640983 * 3.545534) - (1 * 3.411499) = 47.97622
 
 This linear model of MechaCar prototypes sufficiently predicts our dependent variable of MPG, as shown by the relatively high adjusted R-squared value of 68%. 68% of the time the variation can be attributed to the predictor variables. 
 
